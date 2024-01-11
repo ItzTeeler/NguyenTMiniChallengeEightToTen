@@ -15,7 +15,7 @@ public class GuessItService : IGuessItService
                 if(easyRandomGen == num1){
                     return $"You Guessed the right number of {num1}";
                 }else{
-                    return $"Your number of {num1}. Your one try was over... RESTART";
+                    return $"Your number of {num1} was wrong. Your one try was over... RESTART";
                 }
             }
             else
@@ -37,13 +37,13 @@ public class GuessItService : IGuessItService
         {
             if (num1 >= 1 && num1 <= 10)
             {
-                Random easyRandom = new Random();
-                int easyRandomGen = easyRandom.Next(1, 101);
+                Random hardRandom = new Random();
+                int hardRandomGen = hardRandom.Next(1, 101);
 
-                if(easyRandomGen == num1){
+                if(hardRandomGen == num1){
                     return $"You Guessed the right number of {num1}";
                 }else{
-                    return $"Your number of {num1}. Your one try was over... RESTART";
+                    return $"Your number of {num1} was wrong. Your one try was over... RESTART";
                 }
             }
             else
@@ -65,13 +65,13 @@ public class GuessItService : IGuessItService
         {
             if (num1 >= 1 && num1 <= 10)
             {
-                Random easyRandom = new Random();
-                int easyRandomGen = easyRandom.Next(1, 51);
+                Random medRandom = new Random();
+                int medRandomGen = medRandom.Next(1, 51);
 
-                if(easyRandomGen == num1){
+                if(medRandomGen == num1){
                     return $"You Guessed the right number of {num1}";
                 }else{
-                    return $"Your number of {num1}. Your one try was over... RESTART";
+                    return $"Your number of {num1} was wrong. Your one try was over... RESTART";
                 }
             }
             else
