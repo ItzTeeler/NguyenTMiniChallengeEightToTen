@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "cst1TsJ0Vve8BKUxx/1BfGw5CUWNMO1w6t9YqsVtmzstqG344HaaGDle7Qu+4GzWGU5s9wWSwtuu2Rr/PmIdRg==",
+  "success": true,
+  "projectFilePath": "/Users/codestack/Documents/Documents - Tyler's MacBook Pro2/CodeStackLvl2/ASSIGNMENTS/NguyenTMiniChallengeEightToTen/NguyenTMiniChallengeEightToTen.csproj",
+  "expectedPackageFiles": [
+    "/Users/codestack/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+    "/Users/codestack/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/codestack/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/codestack/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/codestack/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/codestack/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/codestack/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
