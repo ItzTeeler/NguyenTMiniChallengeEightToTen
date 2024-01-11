@@ -15,7 +15,7 @@ public class GuessItService : IGuessItService
                 if(easyRandomGen == num1){
                     return $"You Guessed the right number of {num1}";
                 }else{
-                    return $"Your number of {num1} was wrong. Your one try was over... RESTART";
+                    return $"Your number of {num1} was wrong the number was {easyRandomGen}. Your one try was over... RESTART";
                 }
             }
             else
@@ -43,7 +43,7 @@ public class GuessItService : IGuessItService
                 if(hardRandomGen == num1){
                     return $"You Guessed the right number of {num1}";
                 }else{
-                    return $"Your number of {num1} was wrong. Your one try was over... RESTART";
+                    return $"Your number of {num1} was wrong the number was {hardRandomGen}. Your one try was over... RESTART";
                 }
             }
             else
@@ -71,7 +71,7 @@ public class GuessItService : IGuessItService
                 if(medRandomGen == num1){
                     return $"You Guessed the right number of {num1}";
                 }else{
-                    return $"Your number of {num1} was wrong. Your one try was over... RESTART";
+                    return $"Your number of {num1} was wrong the number was {medRandomGen}. Your one try was over... RESTART";
                 }
             }
             else
